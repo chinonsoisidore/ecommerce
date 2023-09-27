@@ -1,0 +1,40 @@
+
+
+.know-us {
+    background-image: url("know-us.jpg");  
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
+ }
+ .know-us h2, .know-us p{
+    color: white;
+ }
+
+#about-us {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#about-us img {
+    width: 50%;
+}
+#about-us div{
+    padding-left: 40px;
+}
+
+#about-app{
+    text-align: center;
+}
+ .app-video video {
+    width: 70%;
+    height: 100%;
+    border-radius: 15px;
+    margin-top: 30px;
+}
